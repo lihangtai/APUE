@@ -21,7 +21,8 @@ int main(int argc, char *argv[]){
         exit(-1);
 
     }
-
+    
     fprintf(stdout, "%ld\n", (long)flen(argv[1]));
 
 }
+
