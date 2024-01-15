@@ -14,10 +14,10 @@ int main(int argc, char *argv[]){
 
     fseek(fp,5ll*1024ll*1024ll*1024ll-1,SEEK_SET);
 
-    fputc('1',fp);
-
+    //fputc('1',fp);
+    
     fclose(fp);
     return 0;
-
+    
 
 }
