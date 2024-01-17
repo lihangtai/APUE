@@ -19,7 +19,7 @@ static int path_noloop(const char *path){
     }
 
     return 1;
-    
+
 
     }
 
