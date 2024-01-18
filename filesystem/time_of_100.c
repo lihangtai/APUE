@@ -16,9 +16,9 @@ int main(int argc, char *argv[]){
     strftime(buf, SIZE, "Now: %Y-%m-%d",tm);
     puts(buf);
 
-    tm->tm_mday+100;
-    mktime(tm);
-    strftime(buf, SIZE, "Now: %Y-%m-%d",tm);
+    tm->tm_mday+=100;
+   (void)mktime(tm);
+    strftime(buf, SIZE, "after 100 day: %Y-%m-%d",tm);
     puts(buf);
 
 

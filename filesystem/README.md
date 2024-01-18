@@ -10,3 +10,6 @@
 
 5.st_size 用stat获取了指定文件的st_size
 
+6.show_time用相关时间函数获取了当前的时间
+
+7.time_of_100用mktime修改struct tm结构体，显示100天后的时间
