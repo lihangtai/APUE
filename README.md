@@ -16,3 +16,6 @@ PART 1: standard IO
 PART 2: system IO
 
 PART 3: filesystem
+
+PART 4: process environment
+
