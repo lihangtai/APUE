@@ -13,3 +13,8 @@
 6.show_time用相关时间函数获取了当前的时间
 
 7.time_of_100用mktime修改struct tm结构体，显示100天后的时间
+
+8.check_pw 获取账户密码信息
+
+9.jump实现了程序间跨函数跳转
+
